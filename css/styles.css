@@ -72,9 +72,25 @@ h2 {
 .image-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px; /* Adjust the margin-top value to move the image down */
+    margin-top: 50px; 
 }
 
 .contact {
-    width: 900px; /* Adjust the width of the image */
-    height: auto; /* Maintain aspect ratio */
+    width: 1200px; 
+    height: 450px; 
+}
+
+.image-container5 {
+    margin-top: 30px;
+    margin-left: 3em;
+}
+
+.image-container6 {
+    margin-top: 30px;
+    margin-left: 3em;
+    width: 3px;
+}
+
+.contact1 {
+    margin-right: 50px;
+}
