@@ -28,21 +28,53 @@ li {
 }
 
 .logo-container {
-    display: flex; /* Use flexbox for the logo and navigation */
-    align-items: center; /* Align items vertically */
+    display: flex; 
+    align-items: center; 
 }
 
 
-.image-container {
-	display: flex; /* Use flexbox for the image container */
-    align-items: center; /* Align items vertically */
-    justify-content: center; /* Center items horizontally */
-    height: 300px; /* Set a fixed height for the container */
+.image-container1 {
+	display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 300px; 
     margin-top: 100px;
 }
 
-p {
+h2 {
 	margin-top: 150px;
 	margin-left: 137px;
+	font-weight: 700;
+	color: #4E6FAE;
+	height: 34px;
+}
+
+.image-container2 {
+	margin-top: 30px;
+	margin-left: 137px;
+	width: 500px;
+	left: 885px;
 
 }
+
+.image-container3 {
+	margin-top: -170px;
+	margin-left: 700px;
+	width: 500px;
+	left: 885px;
+}
+
+.image-container4 {
+	margin-top: 30px;
+	margin-left: 7.4em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Adjust the margin-top value to move the image down */
+}
+
+.contact {
+    width: 900px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
